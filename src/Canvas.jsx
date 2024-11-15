@@ -22,7 +22,7 @@ import gsap from "gsap";
 
   gsap.from(canvasRef.current,{
     opacity:0,
-    duration:0.5,
+    duration:0.6,
     delay:0.5,
     ease:"power2.inOut",  
   });
