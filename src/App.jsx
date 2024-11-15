@@ -14,6 +14,7 @@ function App() {
   const growingspan = useRef(null);
 
   useEffect(() => {
+    // eslint-disable-next-line no-unused-vars
     const locomotiveScroll = new LocomotiveScroll();
   }, []);
 
