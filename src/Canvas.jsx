@@ -1,5 +1,5 @@
 import { useEffect ,useRef, useState} from 'react';
-import canvasImages from "./canvasImages"
+import canvasimages from "./canvasimages.js"
 import { useGSAP } from '@gsap/react';
 import gsap from "gsap";
 
@@ -35,7 +35,7 @@ import gsap from "gsap";
     const canvas = canvasRef.current;
     const ctx = canvas.getContext("2d");
     const img = new Image();
-    img.src = canvasImages[index.value];
+    img.src = canvasimages[index.value];
     img.onload = () => {
       canvas.width = canvas.offsetWidth * scale;
       canvas.height = canvas.offsetHeight * scale;
